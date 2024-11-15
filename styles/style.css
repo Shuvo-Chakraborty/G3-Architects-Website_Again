@@ -188,6 +188,7 @@ main {
 
 .feature-img img {
     height: 90%;
+    width: 100%;
     margin-left: 50px;
 }
 
@@ -284,8 +285,6 @@ main {
 
 
 
-
-
 /*...................................Responsive Media.................................*/
 
 /*              mobile device              */
@@ -340,9 +339,10 @@ main {
     }
 
     nav,
-    .features,
     .teams-container,
     .sponsor-img {
         flex-direction: column;
+    }
+    .features{flex-direction: column;gap: 20px;
     }
 }
